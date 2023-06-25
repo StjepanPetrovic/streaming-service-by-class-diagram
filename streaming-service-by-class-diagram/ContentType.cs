@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace streaming_service_by_class_diagram
 {
-    public class Class1
+    enum ContentType
     {
+        Movie,
+        Series,
     }
 }
